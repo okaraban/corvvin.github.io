@@ -169,6 +169,7 @@ a.button:active {
 }
 
 #about p {
+	font-size: 14px;
 	font-weight: normal;
 	line-height: 1.5em;
 }
