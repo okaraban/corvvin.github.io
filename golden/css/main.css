@@ -80,6 +80,13 @@ h1 {
 	font-weight: bold;
 	font-size: 18px;
 	margin-top: 30px;
+	box-shadow: -3.5px -3.5px rgb(219, 151, 2) inset;
+}
+
+a.button:hover { background: rgb(219, 151, 2); }
+a.button:active {
+  background: rgb(237, 164, 7);
+  box-shadow: 0 0 rgb(237, 164, 7); inset;
 }
 
 .title {
@@ -155,4 +162,72 @@ h1 {
 
 .works img:last-child {
 	float: right;
+}
+
+#about {
+	padding-bottom: 120px;
+}
+
+#about p {
+	font-weight: normal;
+	line-height: 1.5em;
+}
+.information1 {
+	padding-top: 80px;
+	text-align: left;
+}
+
+.information1 span {
+	font-size: 18px;
+	margin-left: -55px;
+	margin-right: 40px;
+	text-align: right;
+	float: left;
+}
+
+.information2 {
+	padding-top: 80px;
+	text-align: right;
+}
+
+.information2 span {
+	font-size: 18px;
+	padding: 0;
+	margin-left: 40px;
+	margin-right: -46px;
+	text-align: left;
+	float: right;
+}
+
+.information3 {
+	padding-top: 80px;
+	text-align: left;
+}
+
+.information3 span {
+	font-size: 18px;
+	margin-left: -55px;
+	margin-right: 40px;
+	text-align: right;
+	float: left;
+}
+
+.information4 {
+	padding-top: 80px;
+	text-align: right;
+}
+
+.information4 span {
+	font-size: 18px;
+	padding: 0;
+	margin-left: 40px;
+	margin-right: -46px;
+	text-align: left;
+	float: right;
+}
+
+footer {
+	font-size: 14px;
+	padding-bottom: 100px;
+	text-align: center;
 }
