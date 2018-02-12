@@ -34,7 +34,7 @@
 /* --- Tablet --- */
 @media screen and (max-width: 728px) {
 	.container{
-	
+		width: 90%;
 	}
 	.mission{
 		width: 100%;
