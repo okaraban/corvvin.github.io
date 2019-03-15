@@ -1,0 +1,806 @@
+@font-face {
+  font-family: "Sofia Pro Regular";
+  src: url("../fonts/Sofia Pro Regular/Sofia Pro Regular.ttf");
+  font-family: "Sofia Pro Bold";
+  src: url("../fonts/Sofia Pro Bold/Sofia Pro Bold.ttf");
+  font-family: "Sofia Pro SemiBold";
+  src: url("../fonts/Sofia Pro SemiBold/Sofia Pro SemiBold.ttf");
+  font-family: "Sofia Pro Medium";
+  src: url("../fonts/Sofia Pro Medium/Sofia Pro Medium.ttf");
+  font-family: "Sofia Pro Light";
+  src: url("../fonts/Sofia Pro Light/Sofia Pro Light.ttf"); }
+
+body {
+  font-family: "Sofia Pro Regular";
+  color: #4b4b4b; }
+
+input {
+  margin: 0;
+  padding: 0; }
+
+ul {
+  margin: 0;
+  padding: 0; }
+
+a:hover {
+  text-decoration: none;
+  color: inherit; }
+
+li {
+  display: inline-block; }
+
+#header-hp {
+  background: url("../img/Illustration.jpg") no-repeat;
+  background-position: 47em -8em;
+  height: 1150px;
+  padding-top: 34px; }
+
+.btn-full {
+  color: #fff;
+  background-color: #7a2fdd;
+  border-radius: 4px;
+  text-align: center;
+  font-family: "Sofia Pro Semi Bold", sans-serif;
+  font-size: 18px;
+  font-weight: 600; }
+
+.btn-empty {
+  color: #7a2fdd;
+  background-color: #fff;
+  border: 1px solid #7a2fdd;
+  border-radius: 4px;
+  text-align: center;
+  font-family: "Sofia Pro Semi Bold", sans-serif;
+  font-size: 18px;
+  font-weight: 600; }
+
+.heading .logo {
+  width: 98px;
+  height: 67px;
+  display: inline-block;
+  margin-left: 53px; }
+
+.heading .menu {
+  display: inline-block; }
+
+.heading .menu li {
+  margin-left: 30px; }
+
+.heading .menu a {
+  color: #4b4b4b;
+  font-size: 16px;
+  font-weight: 400; }
+
+.heading-title {
+  margin-top: 124px;
+  padding-left: 96px; }
+  .heading-title h1 {
+    font-size: 56px;
+    font-weight: 400;
+    line-height: 72px; }
+  .heading-title p {
+    margin-top: 28px;
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 23px; }
+  .heading-title a {
+    margin-top: 40px;
+    padding: 20px 58px;
+    display: inline-block;
+    min-width: 240px;
+    height: 62px; }
+  .heading-title a:nth-child(4) {
+    margin-left: 35px; }
+
+#what {
+  margin-top: 100px; }
+  #what .what-l,
+  #what .what-r {
+    padding-left: 240px; }
+  #what .what-l p,
+  #what .what-r p {
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 20px;
+    margin-top: 14px; }
+  #what .what-l .item-title,
+  #what .what-r .item-title {
+    font-family: "Sofia Pro Medium";
+    font-size: 25px;
+    font-weight: 500;
+    margin-top: 34px; }
+  #what .what-l__item1 h2 {
+    font-size: 56px;
+    font-weight: 400;
+    letter-spacing: -0.18px;
+    line-height: 65px; }
+  #what .what-l__item2 {
+    margin-top: 190px; }
+  #what .what-l__item3 {
+    margin-top: 164px; }
+  #what .what-r__item2 {
+    margin-top: 140px; }
+  #what .what-r__item3 {
+    margin-top: 150px; }
+
+#how {
+  margin-top: 180px; }
+  #how .how-title {
+    text-align: center; }
+  #how .how-title h2 {
+    font-size: 52px;
+    font-weight: 400;
+    letter-spacing: -0.17px;
+    line-height: 56px; }
+  #how .how-title p {
+    margin-top: 42px;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 23px; }
+  #how .how-users {
+    margin-top: 86px;
+    text-align: left;
+    width: 480px;
+    border: 1px solid #d2d2d2;
+    border-radius: 35%;
+    padding: 50px 0px 50px 20px; }
+  #how .how-users p {
+    font-family: "Sofia Pro Light";
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 20px; }
+  #how .how-users .how-users__title {
+    font-family: "Sofia Pro Medium";
+    font-size: 25px;
+    font-weight: 500; }
+  #how .how-users__img {
+    margin: -20px auto;
+    display: block; }
+  #how .how-users li {
+    display: block; }
+    #how .how-users li::before {
+      height: 8px;
+      display: inline-block;
+      margin: 0 10px 0 0;
+      width: 10px;
+      content: "";
+      background: url(../img/Shape.png) no-repeat;
+      background-size: cover; }
+  #how .three-man {
+    margin-top: 26px; }
+  #how .three-man p {
+    display: inline-block;
+    font-family: "Sofia Pro Bold";
+    font-size: 18px;
+    font-weight: 700;
+    letter-spacing: -0.06px;
+    line-height: 21px;
+    padding: 10px; }
+  #how .three-man p:nth-child(1),
+  #how .three-man p:nth-child(3) {
+    margin-top: 40px; }
+  #how .three-man p:nth-child(2),
+  #how .three-man p:nth-child(3) {
+    margin-left: 140px; }
+  #how .three-man__img {
+    margin-top: 50px;
+    margin-left: 40px; }
+  #how .three-man__img img {
+    display: inline-block;
+    margin-left: 23px;
+    margin-top: -20px;
+    padding: 10px; }
+  #how .three-man__img img:nth-child(1),
+  #how .three-man__img img:nth-child(3) {
+    margin-top: 20px; }
+  #how .four-prop {
+    margin: 0 15%;
+    margin-top: 35px;
+    border: 2px solid #ff7062;
+    border-top: none;
+    border-radius: 0 0 8px 8px;
+    padding: 15px 0 0 0; }
+  #how .four-prop p {
+    margin-left: 125px;
+    font-family: "Sofia Pro Bold";
+    font-size: 18px;
+    font-weight: 700;
+    letter-spacing: -0.06px;
+    line-height: 21px; }
+  #how .four-prop p span {
+    opacity: 0.5;
+    font-size: 16px;
+    font-weight: 400;
+    letter-spacing: -0.05px;
+    line-height: 18px;
+    margin-top: 8px;
+    display: inline-block; }
+  #how .four-prop p:nth-child(1) {
+    margin-left: 0; }
+  #how .controle {
+    margin-top: 50px; }
+    #how .controle .controller {
+      width: 268px;
+      height: 180px;
+      margin-top: 77.5px;
+      margin-left: 80px;
+      padding-left: 10px; }
+  #how .okta ul {
+    padding: 30px 40px;
+    border: 1px dashed rgba(75, 75, 75, 0.5);
+    border-radius: 4px;
+    position: relative; }
+  #how .okta li {
+    margin-top: 20px;
+    display: block;
+    font-family: "Segoe UI Semibold 8";
+    font-size: 16px;
+    font-weight: 600;
+    letter-spacing: -0.05px; }
+  #how .okta li:nth-child(1) {
+    margin-top: 0; }
+  #how .okta li:nth-child(2) {
+    opacity: 0.4; }
+  #how .okta p {
+    position: absolute;
+    left: 172px;
+    top: 153px;
+    font-family: "Sofia Pro Bold";
+    font-size: 18px;
+    font-weight: 700;
+    letter-spacing: -0.06px; }
+  #how .controle-plane {
+    margin-left: 80px;
+    border: 1px solid #d2d2d2;
+    position: relative;
+    border-radius: 50%;
+    padding: 40px 20px 40px 50px; }
+    #how .controle-plane p {
+      font-family: "Sofia Pro Light";
+      font-size: 18px;
+      font-weight: 300;
+      line-height: 20px; }
+    #how .controle-plane .controle-plane__title {
+      font-family: "Sofia Pro Medium";
+      font-size: 25px;
+      font-weight: 500; }
+    #how .controle-plane .controle-plane__img {
+      display: block;
+      position: absolute;
+      top: 414px;
+      left: 190px; }
+    #how .controle-plane ul {
+      margin: 0;
+      padding: 0; }
+    #how .controle-plane li {
+      display: block;
+      font-family: "Sofia Pro Light";
+      font-size: 18px;
+      font-weight: 300;
+      line-height: 20px; }
+      #how .controle-plane li::before {
+        height: 8px;
+        display: inline-block;
+        margin: 0 10px 0 0;
+        width: 10px;
+        content: "";
+        background: url(../img/Shape-plane.png) no-repeat;
+        background-size: cover; }
+  #how .gateway {
+    margin-top: 100px; }
+    #how .gateway .gateway-plane {
+      border: 1px solid #d2d2d2;
+      position: relative;
+      border-radius: 45%;
+      padding: 40px 20px 30px 40px; }
+      #how .gateway .gateway-plane p {
+        font-family: "Sofia Pro Light";
+        font-size: 18px;
+        font-weight: 300;
+        line-height: 20px; }
+      #how .gateway .gateway-plane .gateway-plane__title {
+        font-family: "Sofia Pro Medium";
+        font-size: 25px;
+        font-weight: 500; }
+      #how .gateway .gateway-plane .gateway-plane__img {
+        display: block;
+        position: absolute;
+        top: 265px;
+        left: 190px; }
+      #how .gateway .gateway-plane ul {
+        margin: 0;
+        padding: 0; }
+      #how .gateway .gateway-plane li {
+        display: block;
+        font-family: "Sofia Pro Light";
+        font-size: 18px;
+        font-weight: 300;
+        line-height: 20px; }
+        #how .gateway .gateway-plane li::before {
+          height: 8px;
+          display: inline-block;
+          margin: 0 10px 0 0;
+          width: 10px;
+          content: "";
+          background: url(../img/Shape-plane.png) no-repeat;
+          background-size: cover; }
+    #how .gateway .gateway__img {
+      width: 290px;
+      height: 175px;
+      display: block;
+      margin-left: 40px; }
+    #how .gateway .gateway__eye {
+      margin-top: 63px;
+      margin-left: 27px;
+      width: 32px;
+      height: 32px; }
+    #how .gateway .gateway__vis {
+      margin-top: 63px;
+      margin-left: 12px;
+      opacity: 0.5;
+      font-size: 16px;
+      font-weight: 400;
+      letter-spacing: -0.05px; }
+  #how .network {
+    margin-top: 140px; }
+    #how .network .aws ul {
+      text-align: center; }
+    #how .network .aws li {
+      margin-top: 15px;
+      display: block; }
+    #how .network .aws li:nth-child(2) {
+      opacity: 0.3; }
+    #how .network .icons {
+      margin-top: 40px; }
+      #how .network .icons ul {
+        margin-left: 30px; }
+      #how .network .icons li {
+        margin-left: 115px;
+        font-family: "Sofia Pro Bold";
+        font-size: 18px;
+        font-weight: 700;
+        letter-spacing: -0.06px;
+        line-height: 21px; }
+      #how .network .icons li img {
+        margin-bottom: 8px; }
+      #how .network .icons li:nth-child(1) {
+        margin-left: 30px; }
+    #how .network p {
+      font-family: "Sofia Pro Bold";
+      font-size: 18px;
+      font-weight: 700;
+      letter-spacing: -0.06px;
+      margin-top: -50px;
+      margin-left: -70px; }
+    #how .network .your-network {
+      margin-left: 50px;
+      margin-top: -80px;
+      border: 1px solid #d2d2d2;
+      position: relative;
+      border-radius: 40%;
+      padding: 30px 10px 40px 20px; }
+      #how .network .your-network p {
+        font-family: "Sofia Pro Light";
+        font-size: 18px;
+        font-weight: 300;
+        line-height: 20px;
+        margin-left: 0;
+        margin-top: 0; }
+      #how .network .your-network .your-network__title {
+        font-size: 25px;
+        font-weight: 500;
+        font-family: "Sofia Pro Medium";
+        margin-left: 0; }
+      #how .network .your-network li {
+        display: block;
+        font-family: "Sofia Pro Light";
+        font-size: 18px;
+        font-weight: 300;
+        line-height: 20px; }
+        #how .network .your-network li::before {
+          height: 8px;
+          display: inline-block;
+          margin: 0 10px 0 0;
+          width: 10px;
+          content: "";
+          background: url(../img/Shape-network.png) no-repeat;
+          background-size: cover; }
+      #how .network .your-network .your-network__img {
+        position: absolute;
+        top: 285px;
+        left: 185px; }
+
+#security {
+  margin-top: 210px;
+  padding-left: 150px;
+  background: url("../img/pexels-photo.jpg") no-repeat;
+  background-position: 70em 0em;
+  height: 670px; }
+  #security .security h2 {
+    font-size: 52px;
+    font-weight: 400;
+    letter-spacing: -0.17px;
+    line-height: 56px;
+    margin-top: 40px;
+    margin-bottom: 42px; }
+  #security .security p {
+    margin-top: 52px;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 22px; }
+  #security .security a {
+    display: block;
+    margin-top: 50px;
+    width: 160px;
+    height: 40px;
+    border-radius: 3px;
+    font-family: "Sofia Pro Semi Bold";
+    font-size: 16px;
+    font-weight: 600;
+    padding: 10px 40px; }
+
+.security-img {
+  display: none; }
+
+#careers {
+  margin-top: 250px; }
+  #careers .careers-title h2 {
+    font-size: 52px;
+    font-weight: 400;
+    letter-spacing: -0.17px;
+    line-height: 56px; }
+  #careers .careers-title p {
+    margin-top: 37px;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 23px;
+    margin-bottom: 60px; }
+  #careers .careers-item__second {
+    margin-top: 40px; }
+  #careers .careers-item__first,
+  #careers .careers-item__second {
+    max-width: 460px;
+    min-height: 212px;
+    border-radius: 8px;
+    border: 1px solid #f4f4f4; }
+    #careers .careers-item__first p,
+    #careers .careers-item__second p {
+      font-family: "Sofia Pro Light";
+      font-size: 16px;
+      font-weight: 300;
+      line-height: 20px;
+      margin-top: 14px;
+      margin-left: 30px; }
+    #careers .careers-item__first .careers-item__title,
+    #careers .careers-item__second .careers-item__title {
+      font-family: "Sofia Pro Medium";
+      font-size: 25px;
+      font-weight: 500;
+      margin-top: 32px; }
+    #careers .careers-item__first span,
+    #careers .careers-item__second span {
+      opacity: 0.5;
+      color: #4b4b4b;
+      font-family: "Sofia Pro Medium";
+      font-size: 16px;
+      font-weight: 500;
+      display: inline-block;
+      margin: 50px 0 27px 300px; }
+    #careers .careers-item__first::after,
+    #careers .careers-item__second::after {
+      height: 14px;
+      width: 7px;
+      display: inline-block;
+      margin: 14px 0px 0px 2px;
+      content: "";
+      background: url(../img/Path.png) no-repeat;
+      background-size: cover; }
+
+#request {
+  margin-top: 160px;
+  background: #f4f4f4;
+  padding-left: 150px;
+  padding-right: 150px; }
+  #request .request-title h2 {
+    margin-top: 120px; }
+  #request form {
+    margin-top: 80px; }
+  #request input {
+    border: none;
+    border-radius: 0;
+    font-size: 18px;
+    font-weight: 400;
+    background: #f4f4f4;
+    border-bottom: 1px solid rgba(75, 75, 75, 0.3);
+    padding-top: 22px;
+    padding-bottom: 22px; }
+  #request input:focus {
+    outline: none;
+    box-shadow: 0 0 1px 1px #7a2fdd; }
+  #request button {
+    margin-top: 50px;
+    margin-bottom: 120px;
+    min-width: 140px;
+    height: 62px; }
+
+footer {
+  padding: 50px 150px 75px 150px; }
+  footer form {
+    border: 1px solid rgba(75, 75, 75, 0.3);
+    border-radius: 20px;
+    width: 370px; }
+  footer input {
+    border: none;
+    opacity: 0.5;
+    color: #4b4b4b;
+    font-size: 15px;
+    font-weight: 400;
+    letter-spacing: -0.1px;
+    margin-left: 25px; }
+  footer .btn-sub {
+    margin-left: 100px; }
+  footer ul {
+    margin-top: 12px;
+    margin-left: 350px;
+    display: inline-block;
+    color: #d2d2d2; }
+  footer ul li {
+    margin-left: 46px; }
+
+/*	Careers*/
+#header-careers {
+  padding-top: 34px; }
+  #header-careers .btn-empty {
+    margin-left: 590px;
+    margin-right: 50px;
+    padding: 15px 49px 9px 51px; }
+  #header-careers .heading-title {
+    padding-left: 150px; }
+  #header-careers .heading-title h1 {
+    font-size: 64px;
+    line-height: 72px;
+    font-weight: 400; }
+  #header-careers .heading-title p {
+    margin-top: 34px;
+    font-family: "Sofia Pro Light";
+    font-size: 19px; }
+  #header-careers .heading-title a {
+    margin-top: 50px; }
+
+#skills {
+  margin-top: 120px;
+  padding-left: 150px;
+  padding-bottom: 110px; }
+  #skills h3 {
+    font-size: 32px;
+    font-weight: 400; }
+  #skills ul {
+    margin-top: 18px; }
+  #skills ul li {
+    display: block;
+    font-family: "Sofia Pro Light";
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 43px; }
+    #skills ul li::before {
+      content: "";
+      display: inline-block;
+      background: url(../img/Oval.jpg) no-repeat;
+      background-size: cover;
+      height: 7px;
+      width: 7px;
+      margin: 0 15px 2px 0px; }
+  #skills .required,
+  #skills .love,
+  #skills .building {
+    margin-top: 60px; }
+  #skills .building p {
+    margin-top: 28px;
+    font-family: "Sofia Pro Light";
+    font-size: 19px;
+    font-weight: 300;
+    line-height: 23px; }
+  #skills .building a {
+    margin-top: 50px;
+    display: inline-block;
+    min-width: 240px;
+    height: 62px;
+    font-family: "Sofia Pro Semi Bold";
+    font-size: 18px;
+    font-weight: 600;
+    border-radius: 4px; }
+  #skills .building .btn-full {
+    padding: 17px 45px 18px 46px; }
+  #skills .building .btn-empty {
+    padding: 17px 51px 18px 53px;
+    color: #4b4b4b;
+    border: 1px solid #4b4b4b; }
+
+#photo img {
+  width: 100%; }
+
+/*FAQ*/
+#header-faq {
+  padding-top: 34px; }
+  #header-faq .btn-empty {
+    margin-left: 590px;
+    margin-right: 50px;
+    padding: 15px 49px 9px 51px; }
+  #header-faq .heading-title {
+    padding-left: 150px; }
+  #header-faq .heading-title h1 {
+    font-size: 64px;
+    line-height: 72px;
+    font-weight: 400; }
+  #header-faq .heading-title h3 {
+    margin-top: 86px;
+    font-size: 32px;
+    font-weight: 400; }
+  #header-faq .heading-title p {
+    margin-top: 28px;
+    font-family: "Sofia Pro Light";
+    font-size: 19px; }
+  #header-faq .heading-title p:nth-child(6) {
+    margin-top: 60px; }
+  #header-faq .heading-title li {
+    display: block;
+    font-family: "Sofia Pro Light";
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 43px; }
+    #header-faq .heading-title li::before {
+      content: "";
+      display: inline-block;
+      background: url(../img/Oval.jpg) no-repeat;
+      background-size: cover;
+      height: 7px;
+      width: 7px;
+      margin: 0 15px 2px 0px; }
+
+#accordion {
+  padding-left: 150px;
+  height: 800px; }
+  #accordion .accordionWrapper {
+    width: 780px;
+    height: 195px;
+    margin-left: -50px; }
+  #accordion .accordionItemHeading {
+    cursor: pointer;
+    margin-bottom: 0;
+    font-family: "Sofia Pro Medium";
+    font-size: 25px;
+    font-weight: 500;
+    border-radius: 8px 8px 0 0;
+    padding-left: 26px;
+    padding-top: 30px; }
+  #accordion .accordionItemHeading img {
+    margin-right: 24px; }
+  #accordion .closed .accordionItemContent {
+    height: 0px;
+    transition: height 1s ease-out;
+    transform: scaleY(0); }
+  #accordion .open .accordionItemContent {
+    background-color: #8a53d3;
+    color: #fff;
+    transform: scaleY(1);
+    transform-origin: top;
+    transition: transform 0.4s ease;
+    margin-top: 0;
+    border-radius: 0 0 8px 8px;
+    padding: 20px 60px 46px 80px; }
+  #accordion .open .accordionItemHeading {
+    background-color: #8a53d3;
+    color: #fff; }
+
+#details {
+  margin-top: 150px;
+  padding-left: 150px;
+  background-color: #f4f4f4; }
+  #details .request-title h2 {
+    margin-top: 120px; }
+  #details form {
+    margin-top: 80px; }
+  #details input {
+    border: none;
+    border-radius: 0;
+    font-size: 18px;
+    font-weight: 400;
+    background: #f4f4f4;
+    border-bottom: 1px solid rgba(75, 75, 75, 0.3);
+    padding-top: 22px;
+    padding-bottom: 22px; }
+  #details input:focus {
+    outline: none;
+    box-shadow: 0 0 1px 1px #7a2fdd; }
+  #details button {
+    margin-top: 50px;
+    margin-bottom: 120px;
+    min-width: 140px;
+    height: 62px; }
+
+/*#header-hp {
+	@media (max-width: 750px) {
+
+	}
+}
+*/
+@media (max-width: 750px) {
+  #header-hp {
+    height: auto;
+    background: none; } }
+
+@media (max-width: 750px) {
+  #header-hp .heading-title {
+    padding-left: 50px; } }
+
+@media (max-width: 750px) {
+  #header-hp .heading-title a {
+    margin: 40px 20%;
+    padding: 20px 40px;
+    display: block; } }
+
+@media (max-width: 750px) {
+  #what {
+    margin-top: 0;
+    padding-left: 100px; } }
+
+@media (max-width: 750px) {
+  #what .what-l__item1,
+  #what .what-l__item2,
+  #what .what-l__item3,
+  #what .what-r__item1,
+  #what .what-r__item2,
+  #what .what-r__item3 {
+    margin-top: 80px; } }
+
+@media (max-width: 750px) {
+  #what .what-l,
+  #what .what-r {
+    padding-left: 0;
+    text-align: center; } }
+
+@media (max-width: 750px) {
+  #how {
+    margin-top: 50px; } }
+
+@media (max-width: 750px) {
+  #how .four-prop {
+    margin: 0; } }
+
+@media (max-width: 1200px) {
+  #how .four-prop p {
+    margin-left: 20px; } }
+
+@media (max-width: 750px) {
+  #security {
+    margin-top: 100px;
+    padding-left: 50px;
+    background: none;
+    height: auto; } }
+
+@media (max-width: 750px) {
+  #security .security h2 {
+    font-size: 64px;
+    font-weight: 400;
+    letter-spacing: -0.21px;
+    line-height: 76px; } }
+
+@media (max-width: 750px) {
+  #security .security p {
+    font-size: 34px;
+    font-weight: 400;
+    letter-spacing: -0.11px;
+    line-height: 42px; } }
+
+@media (max-width: 750px) {
+  #security .security a {
+    width: 370px;
+    height: 104px;
+    font-family: "Sofia Pro Semi Bold";
+    font-size: 36px;
+    font-weight: 600;
+    padding-top: 25px; } }
+
+@media (max-width: 750px) {
+  .security-img {
+    display: block; } }
