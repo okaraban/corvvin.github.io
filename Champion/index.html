@@ -1,126 +1,166 @@
 <!DOCTYPE html>
-<html>
+<html lang="ru">
 <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>ЧЕМПИОН</title>
-
-	<link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
-	<link href="https://fonts.googleapis.com/css?family=Quicksand" rel="stylesheet">
-    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.6.0/css/font-awesome.min.css">
-    <link rel="stylesheet" href="css/styles.css">
-
+	<meta charset="UTF-8">
+	<title>Чемпион</title>
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="css/media.css">
 </head>
-
 <body>
-
 	<header>
-		<h2><a href="#" class="logo">Чемпион</a></h2>
-		<nav>
-			<li><a href="#">Главная</a></li>
-			<li><a href="#">О нас</a></li>
-			<li><a href="#">Контакты</a></li>
-		</nav>
+		<nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+			<a class="navbar-brand" href="#">Чемпион</a>
+			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar1" aria-controls="navbar1" aria-expanded="false" aria-label="Toggle navigation">
+				<span class="navbar-toggler-icon"></span>
+			</button>
+
+			<div class="collapse navbar-collapse" id="navbar1">
+				<ul class="navbar-nav mr-auto">
+					<li class="nav-item active">
+						<a class="nav-link" href="#">Главная</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="#">О нас</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="#">Контакты</a>
+					</li>
+				</ul>
+			</div>
+		</nav>	
+		<div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+			<ol class="carousel-indicators">
+				<li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+				<li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+				<li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+			</ol>
+			<div class="carousel-inner text-right">
+				<div class="carousel-item active carousel-item__first">
+					<h1>Мы не продаем "все" -<br>мы предлагаем лучшее</h1>
+					<button type="button" class="btn btn-secondary btn-lg">Подробнее</button>
+				</div>
+				<div class="carousel-item carousel-item__second">
+					<h1>В асссоритменте более<br>12 000 000 запчастей</h1>
+					<button type="button" class="btn btn-light btn-lg">Подробнее</button>
+				</div>
+				<div class="carousel-item carousel-item__third">
+					<h1>Мы несем ответственность<br>за правильность<br>подбора запчастей</h1>
+					<button type="button" class="btn btn-secondary btn-lg">Подробнее</button>
+				</div>
+			</div>
+			<a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+				<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+				<span class="sr-only">Previous</span>
+			</a>
+			<a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+				<span class="carousel-control-next-icon" aria-hidden="true"></span>
+				<span class="sr-only">Next</span>
+			</a>
+		</div>
 	</header>
-
-
-	<section class="hero">
-		<div class="background-image" style="background-image: url(img/1.jpg);"></div>
-		<h1>Чемпион - <br> магазин автозапчастей</h1>
-		<h3>Мы не продаем “все” – мы предлагаем лучшее</h3>
-	</section>
-
-<!--
-	<section class="our-work">
-		<h3 class="title">Some of our work</h3>
-		<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam id felis et ipsum bibendum ultrices. Morbi vitae pulvinar velit. Sed aliquam dictum sapien, id sagittis augue malesuada eu.</p>
-		<hr>
-
-		<ul class="grid">
-			<li class="small" style="background-image: url(assets/img/coast.jpg);"></li>
-			<li class="large" style="background-image: url(assets/img/island.jpg);"></li>
-			<li class="large" style="background-image: url(assets/img/balloon.jpg);"></li>
-			<li class="small" style="background-image: url(assets/img/mountain.jpg);"></li>
+	<section id="details">
+		<div class="details-items ">
+			<ul class="d-flex flex-wrap">
+				<li class="details-item">
+					<div class="item-wrapper">
+						<span class="category-image"><img src="img/details_1.jpg" alt=""></span>
+						<div class="item-content">
+							<span class="item-content__title">Заголовок</span>
+							<span>Заголовок</span>
+						</div>
+					</div>
+				</li>
+				<li class="details-item">
+					<div class="item-wrapper">
+						<span class="category-image"><img src="img/details_2.jpg" alt=""></span>
+						<div class="item-content">
+							<span class="item-content__title">Заголовок</span>
+							<span>Заголовок</span>
+						</div>
+					</div>
+				</li>
+				<li class="details-item">
+					<div class="item-wrapper">
+						<span class="category-image"><img src="img/details_3.jpg" alt=""></span>
+						<div class="item-content">
+							<span class="item-content__title">Заголовок</span>
+							<span>Заголовок</span>
+						</div>
+					</div>
+				</li>
+				<li class="details-item">
+					<div class="item-wrapper">
+						<span class="category-image"><img src="img/details_4.jpg" alt=""></span>
+						<div class="item-content">
+							<span class="item-content__title">Заголовок</span>
+							<span>Заголовок</span>
+						</div>
+					</div>
+				</li>
+				<li class="details-item">
+					<div class="item-wrapper">
+						<span class="category-image"><img src="img/details_5.jpg" alt=""></span>
+						<div class="item-content">
+							<span class="item-content__title">Заголовок</span>
+							<span>Заголовок</span>
+						</div>
+					</div>
+				</li>
+				<li class="details-item">
+					<div class="item-wrapper">
+						<span class="category-image"><img src="img/details_6.jpg" alt=""></span>
+						<div class="item-content">
+							<span class="item-content__title">Заголовок</span>
+							<span>Заголовок</span>
+						</div>
+					</div>
+				</li>
+				<li class="details-item">
+					<div class="item-wrapper">
+						<span class="category-image"><img src="img/details_7.jpg" alt=""></span>
+						<div class="item-content">
+							<span class="item-content__title">Заголовок</span>
+							<span>Заголовок</span>
+						</div>
+					</div>
+				</li>
+				<li class="details-item">
+					<div class="item-wrapper">
+						<span class="category-image"><img src="img/details_8.jpg" alt=""></span>
+						<div class="item-content">
+							<span class="item-content__title">Заголовок</span>
+							<span>Заголовок</span>
+						</div>
+					</div>
+				</li>
+			</ul>
 		</div>
 	</section>
--->
-
-	<section class="features">
-		<h3 class="title">Почему запчасти покупают у нас?</h3>
-		<p>Мы несем ответственность за правильность подбора запчастей.<br>
-			Заказанные запчасти всегда проверяются нашими специалистами на<br> соответствие автомобилю заказчика</p>
-		<hr>
-
-		<ul class="grid">
-			<li>
-				<img src="img/soc.png"></img>
-				<h4>Мы гарантируем</h4>
-				<p>Высокое качество товаров и<br> индивидуальный подход к каждому клиенту</p>
-			</li>
-			<li>
-				<img src="img/infinity.png"></img>
-				<h4>Время работы</h4>
-				<p>Пн 9:00 - 18:00;
-					Вт 9:00 - 18:00<br>
-					Ср 9:00 - 18:00;
-					Чт 9:00 - 18:00<br>
-					Пт 9:00 - 18:00;
-					Сб 9:00 - 17:00
-				</p>
-			</li>
-			<li>
-				<img src="img/gps.png"></img>
-				<h4>Контакты</h4>
-				<p>Украина, Запорожская обл.,<br> г. Мелитополь, ул. Интеркультурная 145<br>
-					т. 097 706-14-94<br>
-					т. (0619) 42-43-44
-				</p>
-			</li>
+	<section id="brends">
+		<div class="container-fluid">
+			<div class="row justify-content-around flex-md-nowrap">
+				<div class="brend-item"><a href=""><img src="img/brend-motul.png" alt=""></a></div>
+				<div class="brend-item"><a href=""><img src="img/brend-motul.png" alt=""></a></div>
+				<div class="brend-item"><a href=""><img src="img/brend-motul.png" alt=""></a></div>
+				<div class="brend-item"><a href=""><img src="img/brend-motul.png" alt=""></a></div>
+			</div>
+			<div class="row justify-content-around flex-md-nowrap">
+				<div class="brend-item"><a href=""><img src="img/brend-champion.png" alt=""></a></div>
+				<div class="brend-item"><a href=""><img src="img/brend-champion.png" alt=""></a></div>
+				<div class="brend-item"><a href=""><img src="img/brend-champion.png" alt=""></a></div>
+				<div class="brend-item"><a href=""><img src="img/brend-champion.png" alt=""></a></div>
+			</div>
 		</div>
 	</section>
-
-
-	<section class="reviews">
-		<h3 class="title">О нашем магазине</h3>
-
-		<p class="quote">В асссоритменте более 12 000 000 запчастей</p>
-		<p class="author">800 категорий: от фильтров до поршней<br> 
-			для 46 марок, 2 300 моделей и 30 000 модификаций автомобиля
-		</p>
-
-		<p class="quote">Мы несем ответственность за правильность подбора запчастей</p>
-		<p class="author">Заказанные запчасти всегда проверяются нашими специалистами<br> на соответствие автомобилю заказчика</p>
-
-		<p class="quote">Консультация специалистов</p>
-		<p class="author">Все обращения клиентов принимаются исключительно специалистами<br>
-			Любая проблема при выборе запчасти и ее производителя будет решена
-		</p>
-
-		
-	</section>
-
-<!--
-	<section class="contact">
-		<h3 class="title">Join our newsletter</h3>	
-		<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam id felis et ipsum bibendum ultrices. Morbi vitae pulvinar velit. Sed aliquam dictum sapien, id sagittis augue malesuada eu.</p>
-		<hr>
-
-		<form>
-			<input type="email" placeholder="Email">
-			<a href="#" class="btn">Subscribe now</a>
-		</form>
-	</section>
--->
-	<footer>
-		<ul>
-			<li><a href="#"><i class="fa fa-facebook-square"></i></a></li>
-			<li><a href="#"><i class="fa fa-pinterest-square"></i></a></li>
-			<li><a href="#"><i class="fa fa-github-square""></i></a></li>
-		</ul>
-		<p>Made by <a href="#">CORVIN</a></p>
-	</footer>
-
-</body>
-
-</html>
+	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+	<script>
+		$(document).ready(function(){
+			$('.carousel').carousel({
+				interval: 15000
+			})
+		</script>
+	</body>
+	</html>
