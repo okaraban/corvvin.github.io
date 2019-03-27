@@ -11,16 +11,34 @@ ul {
 }
 
 body {
+	font-family: 'Rubik', sans-serif;
+	/*font-family: 'PT Sans', sans-serif;*/
+}
 
+h2 {
+	font-size: 42px;
+	text-transform: uppercase;
 }
 
 header {
 	
 }
 
+.line{
+	width: 80px;
+	height: 2px;
+	background: #3190ff;
+	margin: 0 auto;
+	margin-top: 12px;
+}
+
 .nav-link {
 	font-size: 18px;
 	margin-left: 20px;
+}
+
+.nav-item .active{
+	color: #3190ff;
 }
 
 .carousel-item {
@@ -72,6 +90,7 @@ header {
 
 #details {
 	max-width: 100%;
+	box-shadow: 0px 16px 26px -6px #000000;
 }
 
 
@@ -79,6 +98,7 @@ header {
 	flex-basis: 25%;
 	max-width: 25%;
 	display: list-item;
+	
 }
 
 .category-image {
@@ -122,24 +142,44 @@ header {
 	-webkit-justify-content: center;
 	-ms-flex-pack: center;
 	justify-content: center;
-	padding: 40px 30px;
+	padding: 10%;
 	color: #fff;
 	cursor: context-menu;
+/*	height: 100%;
+	width: 100%;
+	background: rgba(0,0,0,0.2);*/
 }
 
 .item-content span{
-	font-size: 25px;
+	font-size: 22px;
 	font-weight: 400;
-	line-height: 1;
+	line-height: 1.1;
 	text-transform: uppercase;
 	margin-bottom: 5px;
 	display: block;
+	text-shadow: 
+	-0   -1px 1px #000000,
+	0   -1px 1px #000000,
+	-0    1px 1px #000000,
+	0    1px 1px #000000,
+	-1px -0   1px #000000,
+	1px -0   1px #000000,
+	-1px  0   1px #000000,
+	1px  0   1px #000000,
+	-1px -1px 1px #000000,
+	1px -1px 1px #000000,
+	-1px  1px 1px #000000,
+	1px  1px 1px #000000,
+	-1px -1px 1px #000000,
+	1px -1px 1px #000000,
+	-1px  1px 1px #000000,
+	1px  1px 1px #000000;
 }
 
 .item-content .item-content__title{
 	font-size: 30px;
 	font-weight: 600;
-	line-height: 1;
+	line-height: 1.1;
 	text-transform: uppercase;
 	margin-bottom: 5px;
 	display: block;
@@ -149,7 +189,13 @@ header {
 /*Brends*/
 
 #brends {
-	margin-top: 20px;
+	padding: 40px 0;
+	background: #c7cacc9c;
+}
+
+.brend-item {
+	width: 100%;
+	margin: 10px;
 }
 
 .brend-item img {
@@ -161,3 +207,186 @@ header {
 	opacity: 0.8;
 	transition: all .4s;
 }
+
+/* About */
+
+#about {
+	height: 500px;
+	background: linear-gradient(
+		rgba(0,0,0,0.5),
+		rgba(0,0,0,0.5)
+		), 
+	url('../img/about_audi.jpg') no-repeat center center;
+	background-attachment: fixed;
+	-webkit-background-size: cover;
+	background-size: cover;
+}
+
+.about h2 {
+	margin-top: 80px;
+	color: #fff;
+	font-size: 42px;
+	text-transform: uppercase;
+}
+
+.about p {
+	margin-top: 20px;
+	padding: 0 50px;
+	color: #fff;
+	font-size: 24px;
+}
+
+.about a {
+	margin-top: 50px;
+}
+
+/*Test block*/
+
+#about-more {
+	height: 300px;
+	background: linear-gradient(
+		rgba(255,255,255,0.4),
+		rgba(255,255,255,0.4)
+		), url('../img/moto.jpg') no-repeat center center;
+	background-attachment: fixed;
+	-webkit-background-size: cover;
+	background-size: cover;
+}
+
+.about-more__item {
+	color: #000;
+	margin-top: 80px;
+}
+
+.about-more__item h3 {
+	font-weight: 700;
+	font-size: 34px;
+}
+
+.about-more__item p {
+	margin-top: 12px;
+	font-weight: 600;
+	font-size: 28px;
+}
+
+
+/*Contacts*/
+
+/*Light*/
+
+/*#contacts {
+	padding: 40px 0;
+	background: #c7cacc;
+}
+
+.contacts-title {
+	color: #000;
+}
+
+.contacts-item img {
+	margin-top: 40px;
+}
+
+.contacts-item p {
+	margin-top: 10px;
+	color: #000;
+	display: block;
+	font-size: 26px;
+}
+
+.contacts-item li {
+	color: #000;
+	font-size: 18px;
+	line-height: 28px;
+}
+
+.contacts-item li a {
+	color: #000;
+}
+
+
+
+footer {
+	color: #000;
+	border-top: 2px solid #00000094;
+	padding: 30px 0;
+	background: #c7cacc;
+}
+
+.footer {
+	margin: 0;
+	}*/
+
+
+
+	/*Dark*/
+
+	#contacts {
+		padding: 40px 0;
+		background: #343a40;
+	}
+
+	.contacts-title {
+		color: #fff;
+	}
+
+	.contacts-item img {
+		margin-top: 40px;
+		height: 80px;
+	}
+
+	.contacts-item p {
+		margin-top: 20px;
+		color: #fff;
+		display: block;
+		font-size: 26px;
+	}
+
+	.contacts-item li {
+		color: #fff;
+		font-size: 18px;
+		line-height: 28px;
+	}
+
+	.contacts-item__phones li::before{
+		height: 20px;
+		display: inline-block;
+		margin: 0 10px 0 0;
+		width: 20px;
+		content: "";
+		background: url(../img/telephone.png) no-repeat;
+		background-size: cover;
+	}
+
+		.contacts-item__map li a::before{
+		height: 20px;
+		display: inline-block;
+		margin: 0 10px 0 0;
+		width: 20px;
+		content: "";
+		background: url(../img/placeholder.png) no-repeat;
+		background-size: cover;
+	}
+
+	.contacts-item li a {
+		color: #fff;
+	}
+
+	.contacts-item li a:hover {
+		color: #3190ff;
+		transition-duration: .3s;
+		text-decoration: none;
+	}
+
+
+
+	footer {
+		color: #fff;
+		border-top: 2px solid #535353;
+		padding: 30px 0;
+		background: #343a40;
+	}
+
+	.footer {
+		margin: 0;
+	}
