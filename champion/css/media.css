@@ -18,6 +18,12 @@
 	}
 }
 
+@media (max-width: 992px) {
+	.nav-item {
+		margin: 0 auto;
+	}
+}
+
 @media (max-width: 500px) {
 	.details-item{
 		flex-basis: 100%;

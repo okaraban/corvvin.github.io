@@ -19,8 +19,8 @@ h2 {
 	text-transform: uppercase;
 }
 
-header {
-	
+a:hover {
+	text-decoration: none;
 }
 
 .line{
@@ -31,13 +31,48 @@ header {
 	margin-top: 12px;
 }
 
+.btn:hover {
+	color: #3190ff;
+	transition-duration: .3s;
+}
+
+.navbar {
+	background: #343a40;
+}
+
+.logo {
+	height: 50px;
+}
+
+.navbar-toggler {
+    color: rgba(255,255,255,.5);
+    border-color: rgba(255,255,255,.1);
+    border: 1px solid #3190ff;
+}
+
+.navbar-toggler-icon {
+	background: url('../img/menu-3x.png') no-repeat center center;
+}
+
+.navbar-brand {
+	color: #fff;
+}
+
+.navbar-brand:hover {
+	color: #3190ff;
+	transition-duration: .3s;
+}
+
 .nav-link {
+	color: #fff;
 	font-size: 18px;
 	margin-left: 20px;
 }
 
-.nav-item .active{
+.nav-link:hover,
+.nav-link .active{
 	color: #3190ff;
+	transition-duration: .3s;
 }
 
 .carousel-item {
@@ -96,9 +131,12 @@ header {
 .details-item{
 	flex-basis: 25%;
 	max-width: 25%;
-	display: list-item;
-	
+	display: list-item;	
 }
+
+/*.details-item:hover {
+transform: rotate(180deg);	
+}*/
 
 .category-image {
 	margin: 0;
@@ -157,22 +195,22 @@ header {
 	margin-bottom: 5px;
 	display: block;
 	text-shadow: 
-	-0   -1px 1px #000000,
-	0   -1px 1px #000000,
-	-0    1px 1px #000000,
-	0    1px 1px #000000,
-	-1px -0   1px #000000,
-	1px -0   1px #000000,
-	-1px  0   1px #000000,
-	1px  0   1px #000000,
-	-1px -1px 1px #000000,
-	1px -1px 1px #000000,
-	-1px  1px 1px #000000,
-	1px  1px 1px #000000,
-	-1px -1px 1px #000000,
-	1px -1px 1px #000000,
-	-1px  1px 1px #000000,
-	1px  1px 1px #000000;
+	-0   -0.5px 0.5px #000000,
+	0   -0.5px 0.5px #000000,
+	-0    0.5px 0.5px #000000,
+	0    0.5px 0.5px #000000,
+	-0.5px -0   0.5px #000000,
+	0.5px -0   0.5px #000000,
+	-0.5px  0   0.5px #000000,
+	0.5px  0   0.5px #000000,
+	-0.5px -0.5px 0.5px #000000,
+	0.5px -0.5px 0.5px #000000,
+	-0.5px  0.5px 0.5px #000000,
+	0.5px  0.5px 0.5px #000000,
+	-0.5px -0.5px 0.5px #000000,
+	0.5px -0.5px 0.5px #000000,
+	-0.5px  0.5px 0.5px #000000,
+	0.5px  0.5px 0.5px #000000;
 }
 
 .item-content .item-content__title{
@@ -215,7 +253,7 @@ header {
 		rgba(0,0,0,0.5),
 		rgba(0,0,0,0.5)
 		), 
-	url('../img/about_audi.jpg') no-repeat center center;
+	url('../img/about_ford.png') no-repeat center center;
 	background-attachment: fixed;
 	-webkit-background-size: cover;
 	background-size: cover;
@@ -242,10 +280,10 @@ header {
 /*Test block*/
 
 #about-more {
-	height: 300px;
+	height: auto;
 	background: linear-gradient(
-		rgba(255,255,255,0.4),
-		rgba(255,255,255,0.4)
+		#c7cacc9c,
+		#c7cacc9c
 		), url('../img/moto.jpg') no-repeat center center;
 	background-attachment: fixed;
 	-webkit-background-size: cover;
@@ -254,7 +292,7 @@ header {
 
 .about-more__item {
 	color: #000;
-	margin-top: 80px;
+	margin: 50px 0;
 }
 
 .about-more__item h3 {
@@ -357,7 +395,7 @@ footer {
 		background-size: cover;
 	}
 
-		.contacts-item__map li a::before{
+	.contacts-item__map li a::before{
 		height: 20px;
 		display: inline-block;
 		margin: 0 10px 0 0;

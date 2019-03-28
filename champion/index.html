@@ -9,9 +9,9 @@
 	<link rel="stylesheet" href="css/media.css">
 </head>
 <body>
-	<header>
-		<nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
-			<a class="navbar-brand" href="#">Чемпион</a>
+	<header id="header">
+		<nav class="navbar navbar-expand-lg fixed-top">
+			<a class="navbar-brand" href="index.html"><img class="logo" src="img/logo.png" alt=""></a>
 			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar1" aria-controls="navbar1" aria-expanded="false" aria-label="Toggle navigation">
 				<span class="navbar-toggler-icon"></span>
 			</button>
@@ -19,13 +19,13 @@
 			<div class="collapse navbar-collapse" id="navbar1">
 				<ul class="navbar-nav mr-auto">
 					<li class="nav-item active">
-						<a class="nav-link" href="#">Главная</a>
+						<a class="nav-link" href="#header">Главная</a>
 					</li>
 					<li class="nav-item">
-						<a class="nav-link" href="#">О нас</a>
+						<a class="nav-link" href="#about">О нас</a>
 					</li>
 					<li class="nav-item">
-						<a class="nav-link" href="#">Контакты</a>
+						<a class="nav-link" href="#contacts">Контакты</a>
 					</li>
 				</ul>
 			</div>
@@ -39,15 +39,15 @@
 			<div class="carousel-inner text-right">
 				<div class="carousel-item active carousel-item__first">
 					<h1>Мы не продаем "все" -<br>мы предлагаем лучшее</h1>
-					<button type="button" class="btn btn-secondary btn-lg">Подробнее</button>
+					<a href="#about"><button type="button" class="btn btn-secondary btn-lg">Подробнее</button></a>
 				</div>
 				<div class="carousel-item carousel-item__second">
 					<h1>В асссоритменте более<br>12 000 000 запчастей</h1>
-					<button type="button" class="btn btn-light btn-lg">Подробнее</button>
+					<a href="#about"><button type="button" class="btn btn-light btn-lg">Подробнее</button></a>
 				</div>
 				<div class="carousel-item carousel-item__third">
 					<h1>Мы несем ответственность<br>за правильность<br>подбора запчастей</h1>
-					<button type="button" class="btn btn-secondary btn-lg">Подробнее</button>
+					<a href="#about"><button type="button" class="btn btn-secondary btn-lg">Подробнее</button></a>
 				</div>
 			</div>
 			<a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
@@ -64,10 +64,10 @@
 		<div class="details-items ">
 			<ul class="d-flex flex-wrap">
 				<li class="details-item">
-					<div class="item-wrapper">
+					<div class="item-wrapper view overlay zoom">
 						<span class="category-image"><img src="img/details_1.jpg" alt=""></span>
 						<div class="item-content">
-							<span class="item-content__title">Моторня группа</span>
+							<span class="item-content__title">Моторная группа</span>
 							<span>Nüral, Glyco, MAHLE</span>
 						</div>
 					</div>
@@ -166,12 +166,11 @@
 						Заказанные запчасти всегда проверяются нашими специалистами на <br>
 						соответствие автомобилю заказчика <br>
 					</p>
-					<a href="#" class="btn btn-light btn-lg">Свяжитесь с нами</a>
+					<a href="#contacts" class="btn btn-light btn-lg">Свяжитесь с нами</a>
 				</div>
 			</div>
 		</div>
 	</section>
-
 	<!-- Test block -->
 	<section id="about-more">
 <!-- 		<div class="row justify-content-around flex-md-nowrap w-100">
@@ -205,9 +204,6 @@
 			</div>
 		</div>
 	</section>
-
-
-
 	<!-- Contacts -->
 	<section id="contacts">
 		<div class="container-fluid">
@@ -221,9 +217,9 @@
 					<img src="img/worker.png" alt="">
 					<p>Время работы</p>
 					<ul>
-						<li>Пн-Пт 9:00 - 18:00</li>
-						<li>Сб 9:00 - 17:00</li>
-						<li>Вс Выходной</li>
+						<li>Пн-Пт: 9:00 - 18:00</li>
+						<li>Сб: 9:00 - 17:00</li>
+						<li>Вс: Выходной</li>
 					</ul>
 				</div>
 				<div class="contacts-item col-lg-4 col-md-4">
@@ -238,7 +234,9 @@
 					<img src="img/parked-car.png" alt="">
 					<p>Адрес</p>
 					<ul class="contacts-item__map">
-						<li><a href="#">Украина, Запорожская обл., <br>г. Мелитополь, <br>ул. Интеркультурная 145</a></li>
+						<li><a href="https://www.google.com/maps/place/%D0%A7%D0%B5%D0%BC%D0%BF%D0%B8%D0%BE%D0%BD/@46.8501345,35.36177,19.54z/data=!4m13!1m7!3m6!1s0x40c2b1e38fdbc575:0x8edb3a17b531262a!2z0YPQu9C40YbQsCDQmNC90YLQtdGA0LrRg9C70YzRgtGD0YDQvdCw0Y8sIDE0NSwg0JzQtdC70LjRgtC-0L_QvtC70YwsINCX0LDQv9C-0YDQvtC20YHQutCw0Y8g0L7QsdC70LDRgdGC0YwsIDcyMzAw!3b1!8m2!3d46.8499448!4d35.3626794!3m4!1s0x0:0xef86559c2dd51a3c!8m2!3d46.8502315!4d35.3619035" target="_blank">
+							Украина, Запорожская обл., <br>г. Мелитополь, <br>ул. Интеркультурная 145
+						</a></li>
 					</ul>
 				</div>
 			</div>
@@ -249,10 +247,13 @@
 			<p class="footer text-center">© 2019 Copyright. All Rights Reserved. Design by Kalin Pavel</p>	
 		</div>
 	</footer>
+	
+	<script
+	src="https://code.jquery.com/jquery-3.3.1.min.js"
+	integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+	crossorigin="anonymous"></script>
 	<script src="js/script.js"></script>
-	<script src="js/bootstrap.min.js"></script>
-	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
-	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+	<script src="js/bootstrap.min.js"></script>
 </body>
 </html>
