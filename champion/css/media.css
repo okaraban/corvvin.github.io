@@ -22,6 +22,81 @@
 	.nav-item {
 		margin: 0 auto;
 	}
+
+	.logo {
+		height: 80px;
+	}
+
+	.nav-link {
+		font-size: 26px;
+	}
+
+	.navbar-toggler {
+		padding: .75rem 1.25rem;
+	}
+
+	.carousel-item__first h1,
+	.carousel-item__third h1,
+	.carousel-item__second h1 {
+		font-size: 60px;
+	}
+
+	.btn-lg {
+		font-size: 1.75rem;
+		line-height: 1.5;
+	}
+
+	.item-content .item-content__title {
+		font-size: 40px;
+	}
+
+	.item-content span {
+		font-size: 32px;
+	}
+
+	h2 {
+		font-size: 52px;
+	}
+
+	.about p {
+		padding: 0 100px;
+		font-size: 34px;
+	}
+
+	.about-more__item h3 {
+		font-size: 46px;
+	}
+
+	.about-more__item p {
+		font-size: 38px;
+	}
+
+	.contacts-item img {
+		height: 120px;
+	}
+
+	.contacts-item p {
+		font-size: 36px;
+	}
+
+	.contacts-item li {
+		font-size: 28px;
+		line-height: 32px;
+	}
+
+	footer p {
+		font-size: 22px;
+	}
+}
+
+@media (max-width: 840px) {
+	.carousel-item {
+		padding-top: 30%; 
+	}
+
+	.about p {
+		padding: 0;
+	}
 }
 
 @media (max-width: 500px) {
