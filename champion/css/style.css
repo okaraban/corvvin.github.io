@@ -278,36 +278,6 @@ a:hover {
 	margin-top: 50px;
 }
 
-/*Test block*/
-
-#about-more {
-	height: auto;
-	background: linear-gradient(
-		#c7cacc9c,
-		#c7cacc9c
-		), url('../img/moto.jpg') no-repeat center center;
-	background-attachment: fixed;
-	-webkit-background-size: cover;
-	background-size: cover;
-}
-
-.about-more__item {
-	color: #000;
-	margin: 50px 0;
-}
-
-.about-more__item h3 {
-	font-weight: 700;
-	font-size: 34px;
-}
-
-.about-more__item p {
-	margin-top: 12px;
-	font-weight: 600;
-	font-size: 28px;
-}
-
-
 /*Contacts*/
 
 /*Dark*/
