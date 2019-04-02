@@ -76,13 +76,22 @@ a:hover {
 	transition-duration: .3s;
 }
 
+.carousel-control-next, .carousel-control-prev {
+    width: 10%;
+}
+
 .carousel-item {
-	height: 75vh;
-    padding: 150px;
+	height: 750px;
+	padding: 200px 70px 0 70px;
 }
 
 .carousel-item .btn {
-	margin-top: 2%;
+	position: absolute;
+    text-align: center;
+    bottom: 60px;
+    left: 50%;
+    margin-left: -58px;
+    font-size: 16px;
 }
 
 .carousel-item__first {
@@ -96,12 +105,12 @@ a:hover {
 .carousel-item__first h1,
 .carousel-item__third h1 {
 	color: #fff;
-	font-size: 54px;
+	font-size: 48px;
 }
 
 .carousel-item__second h1 {
 	color: #000;
-	font-size: 54px;
+	font-size: 48px;
 }
 
 .carousel-item__second {
@@ -250,7 +259,7 @@ a:hover {
 	background-attachment: fixed;
 	-webkit-background-size: cover;
 	background-size: cover;
-	padding: 50px 0;
+	padding: 100px 0;
 }
 
 .about h2 {
@@ -259,7 +268,7 @@ a:hover {
 }
 
 .about p {
-	margin-top: 20px;
+	margin-top: 40px;
 	padding: 0 50px;
 	color: #fff;
 	font-size: 24px;
@@ -301,72 +310,82 @@ a:hover {
 
 /*Contacts*/
 
-	/*Dark*/
+/*Dark*/
 
-	#contacts {
-		padding: 40px 0;
-		background: #343a40;
-	}
+#contacts {
+	padding: 40px 0;
+	background: #343a40;
+}
 
-	.contacts-title {
-		color: #fff;
-	}
+.contacts-title {
+	color: #fff;
+}
 
-	.contacts-item img {
-		margin-top: 40px;
-		height: 80px;
-	}
+.contacts-item img {
+	margin-top: 40px;
+	height: 80px;
+}
 
-	.contacts-item p {
-		margin-top: 20px;
-		color: #fff;
-		display: block;
-		font-size: 26px;
-	}
+.contacts-item p {
+	margin-top: 20px;
+	color: #fff;
+	display: block;
+	font-size: 26px;
+}
 
-	.contacts-item li {
-		color: #fff;
-		font-size: 18px;
-		line-height: 28px;
-	}
+.contacts-item li {
+	color: #fff;
+	font-size: 18px;
+	line-height: 28px;
+}
 
-	.contacts-item__phones li::before{
-		height: 20px;
-		display: inline-block;
-		margin: 0 10px 0 0;
-		width: 20px;
-		content: "";
-		background: url(../img/telephone.png) no-repeat;
-		background-size: cover;
-	}
+.contacts-item__phones .phone::before{
+	height: 20px;
+	display: inline-block;
+	margin: 0 10px 0 0;
+	width: 20px;
+	content: "";
+	background: url(../img/telephone.png) no-repeat;
+	background-size: cover;
+}
 
-	.contacts-item__map li a::before{
-		height: 20px;
-		display: inline-block;
-		margin: 0 10px 0 0;
-		width: 20px;
-		content: "";
-		background: url(../img/placeholder.png) no-repeat;
-		background-size: cover;
-	}
+.contacts-item__phones .viber::before{
+	height: 20px;
+	display: inline-block;
+	margin: 0 10px 0 0;
+	width: 20px;
+	content: "";
+	background: url(../img/viber.png) no-repeat;
+	background-size: cover;
+}
 
-	.contacts-item li a {
-		color: #fff;
-	}
+.contacts-item__map li a::before{
+	height: 20px;
+	display: inline-block;
+	margin: 0 10px 0 0;
+	width: 20px;
+	content: "";
+	background: url(../img/placeholder.png) no-repeat;
+	background-size: cover;
+}
 
-	.contacts-item li a:hover {
-		color: #3190ff;
-		transition-duration: .3s;
-		text-decoration: none;
-	}
+.contacts-item li a {
+	color: #fff;
+}
 
-	footer {
-		color: #fff;
-		border-top: 2px solid #535353;
-		padding: 30px 0;
-		background: #343a40;
-	}
+.contacts-item li a:hover {
+	color: #3190ff;
+	transition-duration: .3s;
+	text-decoration: none;
+}
 
-	.footer {
-		margin: 0;
-	}
+footer {
+	color: #fff;
+	border-top: 2px solid #535353;
+	padding: 30px 0;
+	background: #343a40;
+}
+
+.footer {
+	margin: 0;
+}
