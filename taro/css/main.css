@@ -148,7 +148,7 @@ header {
 #heading h1 {
   font-weight: 400;
   font-style: normal;
-  color: #fff;
+  color: #5d0aff;
   font-size: 90px;
   line-height: 1.2;
   letter-spacing: 0px;
@@ -390,7 +390,7 @@ header {
 }
 #works p {
   font-weight: 400;
-  font-style: normal;
+  font-style: bold;
   font-family: 'Roboto Slab', serif;
   color: #898989;
   font-size: 20px;
